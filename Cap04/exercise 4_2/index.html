@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="shortcut icon" href="./images/icons8-weight-kg-24.png" type="image/x-png">
+  <script src="./script.js" defer></script>
+  <title>Calculate Weight</title>
+</head>
+<body>
+  <img src="./images/Image.svg" alt="image of a balance with feet">
+  <div id="calculate">
+  <h1>Program Calculate of weight ideal</h1>
+  <form>
+  <p>
+    Name:
+    <input type="text" id="inName" required>
+  </p>
+<p>Sex:
+  <input type="radio" name="sex" id="male"> Male
+  <input type="radio" name="sex" id="female"> Female
+</p>
+<p>Height:
+  <input type="number" id="inHeight" required min="0" step="0.01">
+</p>
+<div class="button">
+<button type="submit">Calculate weight ideal</button>
+<button type="reset" id="clear">Clear field</button>
+</div>
+</form>
+<h3></h3>
+</div>
+</body>
+</html>

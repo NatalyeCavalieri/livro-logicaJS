@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Game guess number</title>
+</head>
+<body>
+    <h1>The game guess number</h1>
+    <form>
+      <label>
+        Number:
+        <input type="number"  min="0" max="100" id="inNumber" required autofocus>
+        <input type="submit" value="Guess" id="btSubmit">
+        <input type="button" value="Play again" id="btAgain" class="hidden">
+      </label>
+    </form>
+    <h4>Errors: <span id="error">0</span></h4>
+    <h4>Chances: <span id="chance">6</span></h4>
+    <p id="tips" class="italico">Tips: Is a number between 0 and 100</p>
+    <script src="./script.js"></script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+*{
+  margin: 0;
+}
+
+
+body{
+  display: flex;
+  align-items: center;
+  position: absolute;
+}
+
+form{
+
+}
+
+h1{
+  position: relative;
+  bottom:60px;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:start;
+  gap: 30px;
+}
+
+.button{
+  display: flex;
+  gap: 9px;
+}
+
+#female{
+  margin-left: 5px;
+}
+#male{
+  margin-left: 5px;
+}
+
+h3{
+  margin-top: 20px;
+}
